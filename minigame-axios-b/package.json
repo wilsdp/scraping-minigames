@@ -1,0 +1,27 @@
+{
+   "name": "xs-minigames",
+   "version": "1.0.0",
+   "description": "\"# xs-minigames\"",
+   "main": "app.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon app.js"
+   },
+   "author": {
+      "name": "wilsdpl",
+      "email": "wils.dipolog@gmail.com"
+   },
+   "license": "ISC",
+   "dependencies": {
+      "axios": "^1.6.7",
+      "dayjs": "^1.11.10",
+      "dotenv": "^16.4.1",
+      "mssql": "^10.0.2",
+      "sequelize": "^6.36.0",
+      "sequelize-cli": "^6.6.2",
+      "tedious": "^16.6.1"
+   },
+   "devDependencies": {
+      "nodemon": "^3.0.3"
+   }
+}
