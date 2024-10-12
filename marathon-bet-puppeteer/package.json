@@ -1,0 +1,28 @@
+{
+  "name": "marathon-bet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.4.5",
+    "lodash": "^4.17.21",
+    "mssql": "^10.0.2",
+    "puppeteer": "^22.7.0",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "tedious": "^18.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
+}
