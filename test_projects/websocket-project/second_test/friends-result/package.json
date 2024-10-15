@@ -1,0 +1,30 @@
+{
+  "name": "friends-result",
+  "version": "1.0.0",
+  "description": "# friends-result",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon your-app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiiiiii00iiiiiii/friends-result.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iiiiiii00iiiiiii/friends-result/issues"
+  },
+  "homepage": "https://github.com/iiiiiii00iiiiiii/friends-result#readme",
+  "dependencies": {
+    "axios": "^1.6.1",
+    "moment": "^2.29.4",
+    "mongodb": "^4.17.1",
+    "tools": "0.0.0",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
